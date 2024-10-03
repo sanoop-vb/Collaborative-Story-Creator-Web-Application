@@ -63,11 +63,13 @@ npm install
 Start the Backend Server: In the terminal, navigate to the backend directory and run:
 
 cd backend
+
 python manage.py runserver
 
 
 ### Start the Frontend Development Server: In a new terminal window, navigate to the frontend directory and run:
 cd ../frontend
+
 npm start
 
 Access the Application: Open your web browser and go to http://localhost:3000 to view the application.
