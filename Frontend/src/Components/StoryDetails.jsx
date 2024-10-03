@@ -45,7 +45,7 @@ const StoryDetail = () => {
       navigate('/stories'); // Reload the story page to show the new contribution
       alert('seccessfully contributed to the story');
     } catch (err) {
-      setError('unable to add contribution. Check if the word count is more than 20.');
+      setError('unable to add contribution. Check if the word count is more than 20 or the contribution reached maximum limit.');
     }
   };
 

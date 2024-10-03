@@ -69,9 +69,10 @@ const CreateStory = () => {
             <label className="block mb-2">First sentence</label>
             <textarea
               className="w-full p-2 mb-2 border rounded-lg"
+              style={{ height: '150px' }}
               value={content}
               onChange={(e) => setContent(e.target.value)}
-              maxLength={500}
+              maxLength={300}
               required
             />
           </div>
