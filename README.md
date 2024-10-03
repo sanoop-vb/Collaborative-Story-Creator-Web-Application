@@ -39,9 +39,11 @@ cd backend
 
 ### Create a virtual environment and activate it:
 python -m venv venv
+
 ### Activate the virtual environment
 ### On Windows
 venv\Scripts\activate
+
 ### On macOS/Linux
 source venv/bin/activate
 
@@ -67,4 +69,5 @@ python manage.py runserver
 ### Start the Frontend Development Server: In a new terminal window, navigate to the frontend directory and run:
 cd ../frontend
 npm start
+
 Access the Application: Open your web browser and go to http://localhost:3000 to view the application.
